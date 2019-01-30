@@ -3,6 +3,7 @@
 //  Quiz
 //
 //  Created by Blake Vogel on 1/23/19.
+//  High Point University
 //  Copyright © 2019 Blake Vogel. All rights reserved.
 //
 
@@ -15,13 +16,23 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the captial of Vermont?",
-        "What is cognac made from?"
+        "What is cognac made from?",
+        "What is water made of?",
+        "What college football teams mascot is a Bulldog?",
+        "Who is the current US President?",
+        "What US state has the largest population?",
+        "Is a square knot square?"
     ]
     
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
+        "Grapes",
+        "H2O",
+        "University of Georgia",
+        "Donald Trump",
+        "California",
+        "No"
     ]
     var currentQuestionsIndex: Int = 0
     

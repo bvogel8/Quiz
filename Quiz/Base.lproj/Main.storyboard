@@ -44,11 +44,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blake Vogel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLI-Vy-Aw5">
+                                <rect key="frame" x="163" y="695" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="SBr-aK-r6V" firstAttribute="centerX" secondItem="K0j-uO-EEV" secondAttribute="centerX" id="6rR-B1-YaZ"/>
                             <constraint firstItem="SBr-aK-r6V" firstAttribute="top" secondItem="s8k-Vf-5Fs" secondAttribute="bottom" constant="25" id="ADn-25-XZ0"/>
+                            <constraint firstItem="yLI-Vy-Aw5" firstAttribute="top" secondItem="SBr-aK-r6V" secondAttribute="bottom" constant="414" id="Rga-uH-qRB"/>
+                            <constraint firstItem="yLI-Vy-Aw5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vi4-8s-dOe"/>
                             <constraint firstItem="K0j-uO-EEV" firstAttribute="top" secondItem="CL7-E6-ASY" secondAttribute="bottom" constant="17" id="aIq-sf-V2N"/>
                             <constraint firstItem="SBr-aK-r6V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cpN-1B-mHz"/>
                             <constraint firstItem="CL7-E6-ASY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="gbR-Fi-HSm"/>
